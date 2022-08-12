@@ -8,13 +8,14 @@
 </head>
 <body>
     <script>
-       var x=new Array(10,20,30,40,50);
+      //  var x=new Array(10,20,30,40,50);
+      var x=[10,20,30,40,50];
       console.log(x);
       sum=0;
       for(var i=0; i<x.length; i++)
       {
         sum=sum+x[i];
-        avg=x.length/sum
+        avg=sum/x.length
       }
       console.log(sum);
       console.log(avg);
